@@ -13,6 +13,16 @@ index_v50_cn.html
 index_v50_us.html
 login_cn.html
 login_us.html
+使用终端启动 Python 3 脚本（需要键盘输入，外部IO的程序？）
+在目录 /home/pi/.config/lxsession/LXDE-pi/
+下的autostart文件
+nano /home/pi/.config/lxsession/LXDE-pi/autostart
+代码如下：
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@lxterminal -e python3 /var/www/html/wp-content/themes/start-video.py
+
 网站英文/中文主页面程序尾加代码：
 主页面效果如附图1。
 
