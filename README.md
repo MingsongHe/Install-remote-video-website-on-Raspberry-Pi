@@ -49,6 +49,6 @@ nano /home/pi/.config/lxsession/LXDE-pi/autostart
   top: 0;
 }
 
-效果见附图2
+效果见附图2</BR>
 点击“远程视频和控制”菜单，进入密码验证页面，（演示用户名：Admin,  密码 30189），输入验证码，
 进入远程视频和控制页面。
