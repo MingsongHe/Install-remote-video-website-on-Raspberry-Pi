@@ -2,7 +2,7 @@
 选择网站sap的主题sbalab，主题复制到树莓派的/var/www/html/wp-content/themes目录下后，
 将主题名字改为templates，解压缩，并将自动生成的主题目录名也改为templates
 在themes目录下放置文件
-camera_pi.py
+camera_pi.py</BR>
 iot_v50_p_c.py
 start-video.py
 stop-video.py
