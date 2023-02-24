@@ -1,27 +1,27 @@
 # Install-remote-video-website-on-Raspberry-Pi
 选择网站sap的主题sbalab，主题复制到树莓派的/var/www/html/wp-content/themes目录下后，
 将主题名字改为templates，解压缩，并将自动生成的主题目录名也改为templates
-在themes目录下放置文件
+在themes目录下放置文件</BR>
 camera_pi.py</BR>
-iot_v50_p_c.py
-start-video.py
-stop-video.py
-在templates目录下，放置文件：
-alter_passw.html
-alter_passw.php
-index_v50_cn.html
-index_v50_us.html
-login_cn.html
-login_us.html
+iot_v50_p_c.py</BR>
+start-video.py</BR>
+stop-video.py</BR>
+在templates目录下，放置文件：</BR>
+alter_passw.html</BR>
+alter_passw.php</BR>
+index_v50_cn.html</BR>
+index_v50_us.html</BR>
+login_cn.html</BR>
+login_us.html</BR>
 使用终端启动 Python 3 脚本（需要键盘输入，外部IO的程序？）
 在目录 /home/pi/.config/lxsession/LXDE-pi/
 下的autostart文件
 nano /home/pi/.config/lxsession/LXDE-pi/autostart
-代码如下：
-@lxpanel --profile LXDE-pi
-@pcmanfm --desktop --profile LXDE-pi
-@xscreensaver -no-splash
-@lxterminal -e python3 /var/www/html/wp-content/themes/start-video.py
+代码如下：</BR>
+@lxpanel --profile LXDE-pi</BR>
+@pcmanfm --desktop --profile LXDE-pi</BR>
+@xscreensaver -no-splash</BR>
+@lxterminal -e python3 /var/www/html/wp-content/themes/start-video.py</BR>
 
 网站英文/中文主页面程序尾加代码：
 主页面效果如附图1。
